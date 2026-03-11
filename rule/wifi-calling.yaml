@@ -19,3 +19,18 @@ payload:
   # --- 特定主机 IP ---
   - IP-CIDR,206.29.177.36/32
   - IP-CIDR,216.239.36.131/32
+  
+  # UK IMS 域名
+  - DOMAIN-KEYWORD,mcc234
+  - DOMAIN-KEYWORD,mcc310
+
+  # 地区检测
+  - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+  # 沃达丰
+  - DOMAIN-SUFFIX,vodafone.com
+  - DOMAIN-SUFFIX,ondemandconnectivity.com
+  - IP-CIDR,88.82.0.0/19
+  # CMLinkUK EE
+  - IP-CIDR,46.68.0.0/17
+  # Giffgaff
+  - IP-CIDR,87.194.0.0/16
