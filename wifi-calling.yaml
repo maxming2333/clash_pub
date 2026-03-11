@@ -1,0 +1,21 @@
+payload:
+  # --- WiFi Calling 域名 ---
+  - DOMAIN-SUFFIX,telephony.goog
+  - DOMAIN-SUFFIX,3gppnetwork.org
+  - DOMAIN-SUFFIX,whispersystems.org
+  - DOMAIN-SUFFIX,tmobile.com
+  - DOMAIN-SUFFIX,t-mobile.com
+
+  # --- WiFi Calling IP ---
+  - IP-CIDR,208.54.0.0/16
+  - IP-CIDR,66.94.2.0/24
+  - IP-CIDR,66.94.6.0/24
+  - IP-CIDR,66.94.7.0/24
+  - IP-CIDR,66.94.8.0/24
+  - IP-CIDR,66.94.9.0/24
+  - IP-CIDR,66.94.10.0/24
+  - IP-CIDR,66.94.11.0/24
+  
+  # --- 特定主机 IP ---
+  - IP-CIDR,206.29.177.36/32
+  - IP-CIDR,216.239.36.131/32
